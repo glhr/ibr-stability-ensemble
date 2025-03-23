@@ -186,7 +186,7 @@ def sparsify_single_dataset(df, step_V=5, step_P=10, step_Q=10, start_V=0):
 
 def load_dataset(dataset="OP_sin", return_type="dataframe",select_features="all",test_split="none", random_state=None,
                  grid_resolution=1000, specific_points=None):
-    assert dataset in ["OP_mul","OP_sin","OP_sin_more","specific_points"], f"Invalid dataset name {dataset}"
+    assert dataset in ["OP_mul","OP_sin","OP_sin_more"], f"Invalid dataset name {dataset}"
     if "random" in test_split:
         assert random_state is not None, "Random state must be set"
     print(f"Loading dataset {dataset} with test split {test_split}, specific point {specific_points}")
