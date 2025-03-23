@@ -1,3 +1,7 @@
+This is the source code for the paper "Uncertainty-Aware Stability Analysis of IBR-dominated Power System with Neural Networks" 
+
+This project is shared under the GNU AGPLv3 license. Please ensure that you respect and adhere to the terms and conditions of the license when using, modifying, or distributing the code. For more details, refer to the LICENSE file or [https://choosealicense.com/licenses/agpl-3.0/](https://choosealicense.com/licenses/agpl-3.0/#).
+
 # Set-up
 
 Code was tested on Ubuntu but should also run on Windows.
